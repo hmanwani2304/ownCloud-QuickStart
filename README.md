@@ -35,13 +35,13 @@ Perform the following steps to start the installation on your local machine.
   cd owncloud-docker-server
   ```
 
-1. Copy `docker-compose.yml` from the GitHub repository.
+2. Copy `docker-compose.yml` from the GitHub repository.
 
   ```
   wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
   ```
 
-1. Create the environment configuration file.
+3. Create the environment configuration file.
 
   ```
   cat << EOF > .env
@@ -65,13 +65,13 @@ Perform the following steps to start the installation on your local machine.
   EOF
   ```
 
-1. Build and start the container.
+4. Build and start the container.
 
   ```
   docker-compose up -d
   ```
 
-1. Verify that the containers are running successfully. To verify run `docker-compose ps`.
+5. Verify that the containers are running successfully. To verify run `docker-compose ps`.
 
   **NOTE:** When all containers are running successfully, the ownCloud takes some time to be completely functional. If you run `docker-compose logs --follow owncloud` and see a significant amount of information logging to the console, then wait until it slows down to attempting the access of web UI.
 
