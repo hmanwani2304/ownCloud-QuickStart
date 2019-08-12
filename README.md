@@ -110,7 +110,9 @@ To create a new user:
 You can set a new user password in ownCloud, however, you cannot recover one. To set a new user password:
 
 1. Hover the cursor over the user's **Password** field.
+
 2. Select the **[Pencil]** icon.
+
 3. Enter the user's new password in the **Password** field.
 
   **NOTE:** Ensure that you provide the password to the user.
@@ -122,7 +124,9 @@ You can set a new user password in ownCloud, however, you cannot recover one. To
 To delete a user:
 
 1. Open the **Users** page.
+
 2. Hover your cursor over a user's name.
+
 3. Click the **[trashcan]** icon.
 
   A confirmation dialog appears. Select **Yes** to delete the user and related files permanently, otherwise select **No**.
@@ -156,13 +160,17 @@ This section describes the installation for **Windows**, which is same as for an
 After meeting the above system requirements, perform the following steps to install the desktop client:
 
 1. Run following command to install the client.
+
   ```
   msiexec /passive /i ownCloud-x.y.z.msi ADDDEFAULT=Client
   ```
+
 2. Pass the LAUNCH property to launch the client automatically after installation.
+
   ```
   msiexec /i ownCloud-x.y.z.msi LAUNCH="1"
   ```
+
   **NOTE:** This option does not have any effect without GUI.
 
 ##### Installation Wizard
@@ -170,17 +178,21 @@ After meeting the above system requirements, perform the following steps to inst
 The installation wizard enables the user to perform the configuration and account setup process. When the installation wizard launches:
 
 1. Enter the URL of ownCloud server, click **Next**.
+
   ![client-install1](https://doc.owncloud.com/desktop/_images/client-1.png)
 
 2. Enter the ownCloud credentials, click **Next**.
+
   ![client Installation](https://doc.owncloud.com/desktop/_images/client-2.png)
 
 3. Sync all the files on the ownCloud server or select individual folders.
+
   **TIP:** The user can also change the local folder, which displays ownCloud as a default value.
 
   ![Client Installation Sync](https://doc.owncloud.com/desktop/_images/client-3.png)
 
 4. Click **Connect**.
+
   The client connects to the ownCloud server and displays two buttons to:
 
   - Connect to the ownCloud web GUI.
