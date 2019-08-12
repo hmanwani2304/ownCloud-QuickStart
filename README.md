@@ -4,7 +4,7 @@ This guide describes the information about installing, configuring, and connecti
 
 # Installation and Configuration
 
-This section describes the installation process for ownCloud with Docker. To install ownCloud manually, please refer [Manual Installation Link](https://doc.owncloud.org/server/10.2/admin_manual/installation/manual_installation.html).
+This section describes the installation process for ownCloud with Docker. To install ownCloud manually, please refer [Manual Installation](https://doc.owncloud.org/server/10.2/admin_manual/installation/manual_installation.html).
 
 ## System Requirements
 
@@ -117,7 +117,7 @@ You can set a new user password in ownCloud, however, you cannot recover one. To
 
   **NOTE:** Ensure that you provide the password to the user.
 
-![Password Reset](https://doc.owncloud.com/server/10.2/admin_manual/_images/configuration/user/users-page-new-password.png)
+  ![Password Reset](https://doc.owncloud.com/server/10.2/admin_manual/_images/configuration/user/users-page-new-password.png)
 
 ## Deleting a User
 
@@ -131,7 +131,7 @@ To delete a user:
 
   A confirmation dialog appears. Select **Yes** to delete the user and related files permanently, otherwise select **No**.
 
-![Delete User](https://doc.owncloud.com/server/10.2/admin_manual/_images/configuration/user/delete-user-confirmation.png)
+  ![Delete User](https://doc.owncloud.com/server/10.2/admin_manual/_images/configuration/user/delete-user-confirmation.png)
 
 # ownCloud Desktop and Mobile Client
 
@@ -198,7 +198,7 @@ The installation wizard enables the user to perform the configuration and accoun
   - Connect to the ownCloud web GUI.
   - Open the local folder.
 
-  Also, it starts synchronizing the files.
+    Also, it starts synchronizing the files.
 
 For more information about Desktop Client, please refer [Desktop Client Manual](https://doc.owncloud.com/desktop/2.5/).
 
